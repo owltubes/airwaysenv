@@ -1,0 +1,238 @@
+/* text styles */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #80ffff;
+}
+
+.text-style-bold {
+    font-family: Calibri;
+    font-weight: bold;
+    font-size: 48px;
+    color: #0000ff;
+}
+
+.text-style-normal {
+    font-family: Arial;
+    font-weight: normal;
+    font-size: 31px;
+    color: #000000;
+}
+
+.text-style-italic {
+    font-family: Microsoft Himalaya;
+    font-style: italic;
+    font-size: 31px;
+    color: #000000;
+}
+
+.text-style-bold-small {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 18px;
+    color: #0000ff;
+}
+
+.text-style-normal-small {
+    font-family: Arial;
+    font-weight: normal;
+    font-size: 18px;
+    color: #000000;
+}
+
+.text-style-bold-blue {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 18px;
+    color: #0000ff;
+}
+
+/* object styles */
+
+.object-one {
+    position: absolute;
+    top: 211px;
+    left: 57px;
+    z-index: 0;
+}
+
+.object-two {
+    position: absolute;
+    top: 270px;
+    left: 58px;
+    z-index: 1;
+}
+
+.object-three {
+    position: absolute;
+    top: 330px;
+    left: 57px;
+    z-index: 2;
+}
+
+.object-four {
+    position: absolute;
+    top: 33px;
+    left: 324px;
+    z-index: 3;
+}
+
+.object-five {
+    position: absolute;
+    top: 448px;
+    left: 57px;
+    z-index: 4;
+}
+
+.object-six {
+    position: absolute;
+    top: 391px;
+    left: 56px;
+    z-index: 5;
+}
+
+.object-seven {
+    position: absolute;
+    top: 508px;
+    left: 57px;
+    z-index: 6;
+}
+
+.object-eight {
+    position: absolute;
+    top: 573px;
+    left: 57px;
+    z-index: 7;
+}
+
+.object-nine {
+    position: absolute;
+    top: 11px;
+    left: 68px;
+    z-index: 8;
+}
+
+.object-ten {
+    position: absolute;
+    top: 1039px;
+    left: 191px;
+    z-index: 9;
+}
+
+.object-eleven {
+    position: absolute;
+    top: 130px;
+    left: 444px;
+    z-index: 10;
+}
+
+.object-twelve {
+    position: absolute;
+    padding-right: 5px;
+    top: 32px;
+    left: 268px;
+    z-index: 11;
+    text-align: center;
+    width: 671px;
+}
+
+.object-thirteen {
+    position: absolute;
+    padding-right: 5px;
+    top: 378px;
+    left: 473px;
+    z-index: 12;
+    text-align: center;
+    width: 170px;
+}
+
+.object-fourteen {
+    position: absolute;
+    padding-right: 5px;
+    top: 96px;
+    left: 401px;
+    z-index: 13;
+    text-align: left;
+    width: 365px;
+}
+
+.object-fifteen {
+    position: absolute;
+    padding-right: 5px;
+    top: 420px;
+    left: 358px;
+    z-index: 14;
+    text-align: left;
+    width: 474px;
+}
+
+.object-sixteen {
+    position: absolute;
+    padding-right: 5px;
+    top: 646px;
+    left: 316px;
+    z-index: 15;
+    text-align: center;
+    width: 315px;
+}
+
+.object-seventeen {
+    position: absolute;
+    padding-right: 5px;
+    top: 708px;
+    left: 105px;
+    z-index: 16;
+    text-align: left;
+    width: 806px;
+}
+
+.object-eighteen {
+    position: absolute;
+    padding-right: 5px;
+    top: 1037px;
+    left: 335px;
+    z-index: 17;
+    text-align: center;
+    width: 356
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    background-color: #80ffff;
+}
+
+/* LINK STYLES */
+
+a:link {
+    color: #0000ff;
+}
+a:visited {
+    color: #800080;
+}
+a:hover {
+    color: #ff00ff;
+}
+
+/* IMAGE STYLES */
+
+img {
+    border: 0;
+}
+
+/* CONTAINER RULES */
+
+#container {
+    position: relative;
+    margin: 0 auto;
+    height: 1300px;
+    width: 960px;
+    text-align: left;
+    padding-left: 0;
+}
