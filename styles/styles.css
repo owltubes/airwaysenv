@@ -1,130 +1,96 @@
-/* Resetting default browser styles */
+/* Reset styles */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
   
-  /* General Styles */
   body {
     font-family: Arial, sans-serif;
     background-color: #80ffff;
-    color: #000000;
-    line-height: 1.6;
   }
   
   #container {
-    width: 90%;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 20px;
   }
   
-  /* Header Styles */
   header {
     text-align: center;
-    padding: 20px 0;
+    padding: 20px;
+    background-color: #ffffff;
   }
   
-  header .logo {
-    max-width: 180px;
-    height: auto;
+  #logo {
+    max-width: 100px; /* Adjust according to your logo size */
   }
   
   header h1 {
-    font-size: 2.5rem;
     color: #0000ff;
+    font-size: 2em;
   }
   
-  /* Navigation Styles */
-  nav {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    margin-bottom: 20px;
-  }
-  
-  nav a img {
-    width: auto;
-    height: 50px;
-  }
-  
-  /* Main Content Styles */
-  main {
-    padding: 0 10px;
-  }
-  
-  section, article, aside {
-    margin-bottom: 20px;
-  }
-  
-  section h2, article h3, aside h3 {
-    font-size: 1.8rem;
-    margin-bottom: 0.5rem;
-  }
-  
-  /* Typography */
-  p {
-    margin-bottom: 1rem;
-  }
-  
-  /* List Styles in Services Section */
-  .services ul {
+  nav ul {
     list-style-type: none;
-    padding: 0;
+    background-color: #333;
+    text-align: left;
+    padding: 10px;
   }
   
-  .services li {
-    margin-bottom: 10px;
-    padding-left: 20px;
-    position: relative;
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
   }
   
-  .services li:before {
-    content: '•';
-    color: #0000ff;
-    position: absolute;
-    left: 0;
-  }
-  
-  /* Contact Information */
-  .contact-info {
-    background-color: #f2f2f2;
-    padding: 15px;
-    border-radius: 5px;
-  }
-  
-  .contact-info a {
-    color: #0000ff;
+  nav ul li a {
+    color: white;
     text-decoration: none;
   }
   
-  /* Footer Styles */
+  #profile {
+    float: right;
+    margin: 0 0 10px 10px;
+    width: 200px; /* Adjust according to your image size */
+  }
+  
+  main {
+    background-color: #ffffff;
+    padding: 20px;
+  }
+  
+  main h2 {
+    color: #0000ff;
+  }
+  
+  main p {
+    text-align: justify;
+  }
+  
   footer {
-    text-align: center;
-    padding: 20px 0;
     background-color: #333;
     color: white;
+    padding: 10px;
+    text-align: center;
   }
   
-  /* Responsive Design */
+  footer a {
+    color: #80ffff;
+  }
+  
   @media screen and (max-width: 768px) {
-    header h1 {
-      font-size: 2rem;
+    header, nav ul, main, footer {
+      text-align: center;
     }
   
-    nav {
-      flex-direction: column;
+    nav ul li {
+      display: block;
+      margin-bottom: 5px;
     }
   
-    nav a img {
-      height: 40px;
-    }
-  
-    section h2, article h3, aside h3 {
-      font-size: 1.5rem;
+    #profile {
+      float: none;
+      display: block;
+      margin: 10px auto;
     }
   }
-  
-  /* Add additional responsive breakpoints and styles as needed */
   
