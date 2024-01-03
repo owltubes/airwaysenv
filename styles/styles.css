@@ -1,3 +1,4 @@
+/* Reset styles */
 * {
   margin: 0;
   padding: 0;
@@ -7,61 +8,86 @@
 body {
   font-family: Arial, sans-serif;
   background-color: #80ffff;
-  color: #000000;
+}
+
+#container {
+  max-width: 960px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  border: 1px solid #000000;
 }
 
 header {
-  background-color: #ffffff;
-  padding: 10px;
   text-align: center;
+  background-color: #ffffff;
+  padding: 20px 0;
 }
 
 #logo {
-  width: 150px; /* Adjust as needed */
+  max-width: 100px; /* Adjust according to your logo size */
 }
 
 header h1 {
+  font-size: 2em;
   color: #0000ff;
-  font-size: 36px; /* Adjust size as needed */
 }
 
-nav {
-  background-color: #333;
-  color: white;
-  padding: 5px 0;
-  text-align: center;
+header h2 {
+  font-size: 1.5em;
+  color: #0000ff;
 }
 
-nav a {
+nav ul {
+  list-style-type: none;
+  background-color: #000000;
+  overflow: hidden;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
   color: white;
   text-decoration: none;
-  padding: 0 10px;
+  padding: 10px 15px;
+  display: inline-block;
 }
 
 main {
   padding: 20px;
-  background-color: #ffffff;
 }
 
-main h2 {
-  color: #0000ff;
-  margin-bottom: 10px;
+main h3 {
+  background-color: #0000ff;
+  color: white;
+  padding: 2px 5px;
+  font-size: 1.2em;
+}
+
+main p, main ul {
+  padding: 5px 10px;
+  text-align: justify;
+}
+
+main ul li {
+  padding-left: 1em;
+  text-indent: -1em;
 }
 
 footer {
-  background-color: #333;
+  background-color: #000000;
   color: white;
   padding: 10px;
   text-align: center;
+  font-size: 0.9em;
 }
 
 @media screen and (max-width: 768px) {
-  header h1 {
-    font-size: 24px;
-  }
-
-  nav a {
+  nav ul li {
     display: block;
-    margin: 5px 0;
+    text-align: center;
   }
 }
